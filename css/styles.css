@@ -3,7 +3,7 @@
 
 /* GLOBAL STYLES — applied to all pages */
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', Arial, sans-serif;
   line-height: 1.7;
   padding: 2rem;
   background-color: #ffeef6; /* soft pink */
@@ -110,4 +110,49 @@ body.page3 {
 
 .page3 img {
   border: 3px solid #d46fa3;
+}
+
+/* -------------------------------------- */
+/* REQUIRED FIXES FOR PROJECT 2 */
+/* (Floats + Positions for layout) */
+/* -------------------------------------- */
+
+/* Float an image left */
+.float-left-img {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Float a box right */
+.float-right-box {
+  float: right;
+  width: 40%;
+  margin-left: 1rem;
+}
+
+/* Fixed-position Back to Top button */
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ffb6d9;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(255, 150, 200, 0.4);
+}
+
+/* Absolute-position decorative tag */
+.decorative-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 192, 203, 0.85);
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #4a2c2a;
 }
